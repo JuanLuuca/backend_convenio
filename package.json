@@ -1,0 +1,29 @@
+{
+  "name": "admconvenio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon --exec npx ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mssql": "^9.1.1",
+    "mysql2": "^3.4.3",
+    "sequelize": "^6.32.1",
+    "tedious": "^16.1.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/sequelize": "^4.28.15",
+    "@types/tedious": "^4.0.9",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.1.6"
+  }
+}
